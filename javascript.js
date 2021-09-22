@@ -1,5 +1,5 @@
 const container = document.getElementById("poke-container"),
-      count = 150,
+      count = 99,
       colors = {
         fire: '#FDDFDF',
         grass: '#DEFDE0',
@@ -45,7 +45,7 @@ const name = eachPokemon.name[0].toUpperCase() + eachPokemon.name.slice(1),
 pokemonEl.style.backgroundColor = color;
 
 const pokemnInnerHTML = `
-<div class="img-container">
+<div class="image-container">
 <img src="https://th.bing.com/th/id/OIP.tJv7wk4OXerN9ta1uS5s9gAAAA?pid=ImgDet&rs=1" alt="https://th.bing.com/th/id/OIP.tJv7wk4OXerN9ta1uS5s9gAAAA?pid=ImgDet&rs=1" alt="https://th.bing.com/th/id/OIP.tJv7wk4OXerN9ta1uS5s9gAAAA?pid=ImgDet&rs=1">
 </div>
 <div class="info">
